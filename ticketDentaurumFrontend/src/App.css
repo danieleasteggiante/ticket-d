@@ -1,0 +1,146 @@
+.container-background {
+    background-image: url('./assets/images/ticket-dentaurum-italia-background-home.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
+
+.container-background-user {
+    background-image: url('./assets/images/ticket-dentaurum-italia-background-home-user.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+.container-background-admin {
+    background-image: url('./assets/images/ticket-dentaurum-italia-background-home-admin.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+.background-color-elements {
+    background-color: #246676;
+}
+
+.background-color-black {
+    background-color: black;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.logo-quality {
+    width: 120px;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    z-index: 3;
+    background-color: #1d525f
+}
+
+.overBlack {
+    background-color: rgba(46, 43, 43, 0.2);
+    width: 100%;
+}
+
+.bg-colorOne {
+    background-color: rgb(166, 236, 254);
+}
+
+.bg-colorTwo {
+    background-color: rgb(180, 242, 253);
+}
+
+.bg-colorThree {
+    background-color: rgba(89, 100, 102, 0.5);
+}
+
+.bg-colorFour {
+    background-color: rgb(35, 123, 163);
+}
+
+.text-colorOne {
+    color: antiquewhite;
+}
+
+.text-colorOne:hover {
+    color: rgb(172, 169, 166);
+    text-decoration: none;
+}
+
+.modal-background {
+    text-align: center;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 9px;
+    z-index: 2;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+}
+
+.header-modal {
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.title-modal {
+    float: left;
+}
+
+.form-group-v2 {
+    padding-bottom: 10px;
+}
